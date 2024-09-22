@@ -1,3 +1,6 @@
+import { porfolioData } from "@/app/data/header/portfolio/portfolio";
+import PortfolioCard from "./PortfolioCard";
+
 export default function Portfolio() {
     return (
         <>
@@ -11,10 +14,12 @@ export default function Portfolio() {
                         </h2>
 
                         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+                            {
+                                porfolioData.map((item, index) => {
+                                    return <PortfolioCard key={index} item={item} />
+                                })
+                            }
 
-                            <PortfolioCard />
-                            <PortfolioCard />
-                            <PortfolioCard />
 
 
 
@@ -29,27 +34,3 @@ export default function Portfolio() {
 }
 
 
-function PortfolioCard() {
-    return (
-        <div className="bg-gray-100 rounded-lg shadow-lg overflow-hidden">
-            <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfYpkysyyLe-Eoc7i9yofc1y9rRBLYrP9wPw&s"
-                alt="Project 1"
-                className="w-full h-48 object-cover"
-            />
-            <div className="p-6">
-                <h3 className="text-2xl font-bold text-gray-800 mb-2">
-                    Project Title 1
-                </h3>
-                <p className="text-gray-600 mb-4">
-                    A brief description of the project showcasing the key features and
-                    technologies used.
-                </p>
-                <a href="#" className="text-blue-500 font-semibold hover:underline">
-                    View Project
-                </a>
-            </div>
-        </div>
-    )
-
-}

@@ -1,0 +1,3 @@
+static picture kaise lagaye public folder see using map
+svg ka data kaise change kare dynamic
+componet as a props kaise pass kare for icons 

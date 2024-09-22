@@ -4,7 +4,7 @@ export default function ContactUs() {
             <div className="pt-24">
                 {/* Other sections like Hero, Portfolio, Services, Testimonials, Blog, About Us */}
                 {/* Contact Us Section */}
-                <section id="contact-us" className="bg-white py-16">
+                <section id="contact" className="bg-white py-16">
                     <div className="container mx-auto px-6 md:px-12 lg:px-16">
                         {/* Section Heading */}
                         <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-12">
