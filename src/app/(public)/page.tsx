@@ -12,14 +12,14 @@ export default function Home() {
         <>
             <main>
 
-                {/* <Hero />
+                <Hero />
                 <Portfolio />
                 <Services />
                 <Testimonial />
                 <Blog />
                 <CallToAction />
                 <AboutUs />
-                <ContactUs /> */}
+                <ContactUs />
             </main>
 
         </>

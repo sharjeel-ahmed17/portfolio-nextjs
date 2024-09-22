@@ -22,16 +22,17 @@ export default function AboutUs() {
                                     About <span className="text-blue-500">Me</span>
                                 </h2>
                                 <p className="text-gray-600 mb-6">
-                                    I’m [Your Name], a passionate developer and designer with a love for
-                                    creating beautiful, functional websites. With over [X years] of
+                                    I’m  <span className="font-bold">Sharjeel Ahmed</span> , a passionate developer and designer with a love for
+                                    creating beautiful, <span className="font-bold">functional websites</span> . With over 2 of
                                     experience in the industry, I’ve had the pleasure of working with
                                     clients from various industries, helping them bring their ideas to
                                     life.
                                 </p>
                                 <p className="text-gray-600 mb-6">
-                                    My expertise lies in crafting pixel-perfect user interfaces, clean
+                                    My expertise lies in crafting <span className="font-bold"> pixel-perfect user interfaces</span>
+                                    , clean
                                     code, and seamless user experiences. Whether you're a startup or a
-                                    large enterprise, I am committed to delivering top-quality solutions
+                                    large enterprise, I am committed to delivering <span className="font-bold">top-quality solutions </span>
                                     that exceed your expectations.
                                 </p>
                                 <Link
