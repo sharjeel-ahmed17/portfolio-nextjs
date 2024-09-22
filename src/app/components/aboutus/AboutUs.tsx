@@ -11,7 +11,7 @@ export default function AboutUs() {
 
                             <div className="mb-8 md:mb-0 md:w-1/2">
                                 <img
-                                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReBVGK211S5X4_noTLHai-QT-5k3JVIcCbKQ&s"
+                                    src="/images/me.png"
                                     alt="About Us"
                                     className="w-full h-auto rounded-lg shadow-lg"
                                 />
