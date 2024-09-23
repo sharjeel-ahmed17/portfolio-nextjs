@@ -1,3 +1,5 @@
 static picture kaise lagaye public folder see using map
 svg ka data kaise change kare dynamic
 componet as a props kaise pass kare for icons 
+tailwind css mai ek property hoti hai ke ap ko image ka kon sa part dekana hai like upper wala , niche wala
+interface ka type wase he rakna parha hai jaise backend see data milta hai

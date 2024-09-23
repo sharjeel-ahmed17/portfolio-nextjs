@@ -1,6 +1,65 @@
 import Link from "next/link";
 import { FaSquareFacebook } from "react-icons/fa6";
 
+interface QuickLinksData {
+    name: string;
+    url: string;
+}
+const quickLinks: QuickLinksData[] = [
+    {
+        name: "Facebook",
+        url: "https://www.facebook.com"
+    },
+    {
+        name: "Instagram",
+        url: "https://www.instagram.com"
+    },
+    {
+        name: "LinkedIn",
+        url: "https://www.linkedin.com"
+    },
+    {
+        name: "Twitter",
+        url: "https://www.twitter.com"
+    }
+
+]
+
+interface ResourcesData {
+    name: string;
+    url: string;
+}
+
+const resources: ResourcesData[] = [
+    {
+        name: "Web Development",
+        url: "#"
+    },
+    {
+        name: "Mobile Development",
+        url: "#"
+    },
+    {
+        name: "Marketing",
+        url: "#"
+    }
+
+]
+
+interface SocialMediaIconData {
+    icon: any
+}
+const socialMediaIcon: SocialMediaIconData[] = [
+    {
+        icon: <FaSquareFacebook size={32} color="#fff" />
+    },
+    {
+        icon: <FaSquareFacebook size={32} color="#3b5998" />
+    },
+    {
+        icon: <FaSquareFacebook size={32} color="#0084cc" />
+    }
+]
 export default function Footer() {
     return (
         <>
@@ -20,20 +79,28 @@ export default function Footer() {
                             <div className="mb-6 md:mb-0">
                                 <h4 className="font-semibold mb-4">Quick Links</h4>
                                 <ul>
+                                    {
+                                        quickLinks.map((item, index) => {
+                                            return (
+                                                <QuickLinksItem key={index} item={item} />
+                                            )
+                                        })
+                                    }
 
-                                    <QuickLinksItem />
-                                    <QuickLinksItem />
-                                    <QuickLinksItem />
-                                    <QuickLinksItem />
+
                                 </ul>
                             </div>
                             <div>
                                 <h4 className="font-semibold mb-4">Resources</h4>
                                 <ul>
+                                    {
+                                        resources.map((item, index) => {
+                                            return (
+                                                <ResourcesList key={index} item={item} />
+                                            )
+                                        })
+                                    }
 
-                                    <ResourcesList />
-                                    <ResourcesList />
-                                    <ResourcesList />
                                 </ul>
                             </div>
                         </div>
@@ -41,11 +108,12 @@ export default function Footer() {
                         <div className="md:w-1/3 text-center md:text-left">
                             <h4 className="font-semibold mb-4">Follow Me</h4>
                             <div className="flex justify-center md:justify-start space-x-4">
+                                {
+                                    socialMediaIcon.map((item, index) => (
+                                        <SocialICon key={index} item={item} />
+                                    ))
+                                }
 
-                                <SocialICon />
-                                <SocialICon />
-                                <SocialICon />
-                                <SocialICon />
                             </div>
                         </div>
                     </div>
@@ -60,40 +128,62 @@ export default function Footer() {
     )
 }
 
+interface IICon {
+    item: {
 
-function SocialICon() {
+        icon: any;
+    }
+}
+function SocialICon({ item }: IICon) {
+    const { icon } = item;
     return (
         <Link
             href="#"
             className="text-gray-400 hover:text-white transition-colors"
         >
-            <FaSquareFacebook />
+            {icon}
         </Link>
     )
 }
+interface IResources {
+    item: {
+        name: string,
+        url: string
 
-function ResourcesList() {
+    }
+}
+function ResourcesList({ item }: IResources) {
+    const { name, url } = item;
     return (
         <li className="mb-2">
             <a
-                href="#blog"
+                href={url}
                 className="text-gray-400 hover:text-white transition-colors"
             >
-                Blog
+                {name}
             </a>
         </li>
     )
 }
 
-function QuickLinksItem() {
+
+interface IQuickLinks {
+    item: {
+        name: string,
+        url: string
+
+    }
+}
+function QuickLinksItem({ item }: IQuickLinks) {
+    const { name, url } = item;
     return (
         <li className="mb-2">
-            <a
-                href="#portfolio"
+            <Link
+                href={url}
                 className="text-gray-400 hover:text-white transition-colors"
             >
-                Portfolio
-            </a>
+                {name}
+            </Link>
         </li>
     )
 }
