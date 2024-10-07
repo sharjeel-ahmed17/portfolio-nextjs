@@ -20,15 +20,15 @@ interface LabelData {
 const label: LabelData[] = [
     {
         label: "Phone",
-        value: "+1 234 567 8900"
+        value: "+92 3411263007"
     },
     {
-        label: "Phone",
-        value: "+1 234 567 8900"
+        label: "Email",
+        value: "sharjeelalibari3@gmail.com"
     },
     {
-        label: "Phone",
-        value: "+1 234 567 8900"
+        label: "Address",
+        value: "Orangi Town Karachi"
     },
 
 ]
