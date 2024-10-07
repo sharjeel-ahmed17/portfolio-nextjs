@@ -1,5 +1,7 @@
 import Link from "next/link";
 import { FaSquareFacebook } from "react-icons/fa6";
+import { FaLinkedin } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
 
 interface QuickLinksData {
     name: string;
@@ -8,15 +10,15 @@ interface QuickLinksData {
 const quickLinks: QuickLinksData[] = [
     {
         name: "Facebook",
-        url: "https://www.facebook.com"
+        url: "https://www.facebook.com/profile.php?id=100063755231469"
     },
     {
         name: "Instagram",
-        url: "https://www.instagram.com"
+        url: "https://www.instagram.com/foot_fiesta24/"
     },
     {
         name: "LinkedIn",
-        url: "https://www.linkedin.com"
+        url: "https://www.linkedin.com/in/sharjeelahmed17/"
     },
     {
         name: "Twitter",
@@ -54,10 +56,10 @@ const socialMediaIcon: SocialMediaIconData[] = [
         icon: <FaSquareFacebook size={32} color="#fff" />
     },
     {
-        icon: <FaSquareFacebook size={32} color="#3b5998" />
+        icon: <FaLinkedin size={32} color="#3b5998" />
     },
     {
-        icon: <FaSquareFacebook size={32} color="#0084cc" />
+        icon: <FaInstagram size={32} color="#FFC0CB" />
     }
 ]
 export default function Footer() {
@@ -65,7 +67,7 @@ export default function Footer() {
         <>
             <footer className="bg-gray-900 text-white py-12">
                 <div className="container mx-auto px-6 md:px-12 lg:px-16">
-                    <div className="flex flex-col md:flex-row justify-between items-start md:items-center md:space-x-12">
+                    <div className="flex flex-col md:flex-row justify-between items-start pace-x-12">
                         {/* Footer Logo and Description */}
                         <div className="mb-8 md:mb-0 md:w-1/3">
                             <h3 className="text-2xl font-bold mb-4">Sharjeel Ahmed</h3>
@@ -181,6 +183,7 @@ function QuickLinksItem({ item }: IQuickLinks) {
             <Link
                 href={url}
                 className="text-gray-400 hover:text-white transition-colors"
+                target="_blank"
             >
                 {name}
             </Link>
