@@ -21,8 +21,8 @@ const ServiceCards = ({ item }: IServices) => {
                         d="M12 8v8m0 0l-3-3m3 3l3-3M4 4h16v16H4V4z"
                     />
                 </svg> */}
-                {svg}
-                <img src={imageUrl} className="h-12 w-12 text-blue-500" alt="" />
+                {/* {svg} */}
+                <img src={imageUrl} className="w-40 h-28 text-blue-500" alt="" />
             </div>
             <h3 className="text-2xl font-bold text-gray-800 mb-4 text-center">
                 {title}

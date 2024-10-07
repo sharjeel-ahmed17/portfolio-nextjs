@@ -9,35 +9,35 @@ interface TestimonialData {
 
 export const testimonialData: TestimonialData[] = [
     {
-        imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmCy16nhIbV3pI1qLYHMJKwbH2458oiC9EmA&s",
-        alt: "Portfolio Image 1",
-        title: "Portfolio Title 1",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        name: "Afzal ali bari"
+        imageUrl: "/images/naqqash.PNG",
+        alt: "Naqqash Ali Bari",
+        title: "CEO, Example Corp",
+        description: "Working with [Your Name] has been an absolute pleasure. Their professionalism and attention to detail are second to none.",
+        name: "Naqqash Ali Bari"
 
     },
     {
-        imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmCy16nhIbV3pI1qLYHMJKwbH2458oiC9EmA&s",
+        imageUrl: "/images/raja.PNG",
         alt: "Portfolio Image 1",
-        title: "Portfolio Title 1",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        name: "noman ali bari"
+        title: "Marketing Head, Business Co.",
+        description: "Their work is simply amazing! I’ve seen incredible improvements in my website’s traffic and user engagement since working with them.",
+        name: "Raja Ehsan"
 
     },
     {
-        imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmCy16nhIbV3pI1qLYHMJKwbH2458oiC9EmA&s",
+        imageUrl: "/images/mehboob.PNG",
         alt: "Portfolio Image 1",
-        title: "Portfolio Title 1",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        name: "naqqash ali bari"
+        title: "Founder, Creative Agency",
+        description: "I highly recommend [Your Name]. They understood our vision perfectly and delivered a product that exceeded our expectations.",
+        name: "Mehboob Rajput"
 
     },
     {
-        imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmCy16nhIbV3pI1qLYHMJKwbH2458oiC9EmA&s",
+        imageUrl: "/images/arsalan.PNG",
         alt: "Portfolio Image 1",
-        title: "Portfolio Title 1",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        name: "arsalan ansari"
+        title: "CTO, Tech Innovators",
+        description: "Professional, talented, and efficient. [Your Name] consistently delivers outstanding results with a personal touch.",
+        name: "Arsalan Ansari"
 
     },
 

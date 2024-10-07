@@ -8,10 +8,10 @@ interface ServicesData {
 
 export const ServiceData: ServicesData[] = [
     {
-        imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmCy16nhIbV3pI1qLYHMJKwbH2458oiC9EmA&s",
-        alt: "Portfolio Image 1",
-        title: "Portfolio Title 1",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        imageUrl: "/images/webdevelopment.png",
+        alt: "web development",
+        title: "Web Development",
+        description: "I create responsive, fast, and modern websites that look great on any device. Whether it's a personal website or an enterprise solution.",
         svg: <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-12 w-12 text-blue-500"
@@ -29,10 +29,10 @@ export const ServiceData: ServicesData[] = [
 
     },
     {
-        imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmCy16nhIbV3pI1qLYHMJKwbH2458oiC9EmA&s",
-        alt: "Portfolio Image 1",
-        title: "Portfolio Title 1",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        imageUrl: "/images/ui-ux.avif",
+        alt: "ui ux design ",
+        title: "UI/UX Design",
+        description: "I design user-centric, intuitive interfaces that provide excellent experiences for your users, combining beauty with functionality.",
         svg: <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-12 w-12 text-blue-500"
@@ -50,10 +50,10 @@ export const ServiceData: ServicesData[] = [
 
     },
     {
-        imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmCy16nhIbV3pI1qLYHMJKwbH2458oiC9EmA&s",
+        imageUrl: "/images/seo.png",
         alt: "Portfolio Image 1",
-        title: "Portfolio Title 1",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        title: "SEO Optimization",
+        description: "I offer SEO services to boost your site's visibility, making sure it ranks high in search engines and reaches a broader audience.",
         svg: <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-12 w-12 text-blue-500"
