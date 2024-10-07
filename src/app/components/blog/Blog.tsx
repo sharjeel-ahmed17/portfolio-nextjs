@@ -1,4 +1,4 @@
-import { BlogData } from "@/app/data/header/blog/blog"
+import { BlogData } from "@/app/data/blog/blog"
 import Link from "next/link"
 
 export default function Blog() {
@@ -44,6 +44,8 @@ interface IBLog {
 
 function BlogCard({ item }: IBLog) {
     const { imageUrl, title, description, url, alt } = item;
+    // console.log(url);
+
     return (
         <div className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
             <img
@@ -60,11 +62,16 @@ function BlogCard({ item }: IBLog) {
                 <p className="text-gray-600 mb-4">
                     {description}
                 </p>
-                <Link href={url} className="text-blue-500 font-semibold hover:underline">
+                <Link href={`${url}`} className="text-blue-500 font-semibold hover:underline">
                     Read More
                 </Link>
+
+                {/* <Link href='/sharjeel'>
+                    sharjeel ahmed
+                </Link> */}
             </div>
-        </div>
+
+        </div >
     )
 }
 

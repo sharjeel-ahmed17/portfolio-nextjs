@@ -1,4 +1,4 @@
-import { ServiceData } from "@/app/data/header/services/servics";
+import { ServiceData } from "@/app/data/services/servics";
 import ServiceCards from "./ServiceCards";
 
 export default function Services() {

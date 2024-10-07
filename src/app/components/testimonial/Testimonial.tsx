@@ -1,4 +1,4 @@
-import { testimonialData } from "@/app/data/header/testimonial/testimonial";
+import { testimonialData } from "@/app/data/testimonial/testimonial";
 import TestimonialCard from "./TestimonialCard";
 
 export default function Testimonial() {

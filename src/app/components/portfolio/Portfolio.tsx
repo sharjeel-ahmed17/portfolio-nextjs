@@ -1,4 +1,4 @@
-import { porfolioData } from "@/app/data/header/portfolio/portfolio";
+import { porfolioData } from "@/app/data/portfolio/portfolio";
 import PortfolioCard from "./PortfolioCard";
 
 export default function Portfolio() {

@@ -1,4 +1,4 @@
-import { Navlist } from "@/app/data/header/Navlist";
+import { Navlist } from "@/app/data/Navlist";
 import GetInTouchMobile from "./GetInTouchMobile";
 import NavListMob from "./NavListMob";
 

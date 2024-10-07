@@ -65,7 +65,7 @@ const socialMediaIcon: SocialMediaIconData[] = [
 export default function Footer() {
     return (
         <>
-            <footer className="bg-gray-900 text-white py-12">
+            <footer className="bg-gray-900 text-white py-12 ">
                 <div className="container mx-auto px-6 md:px-12 lg:px-16">
                     <div className="flex flex-col md:flex-row justify-between items-start pace-x-12">
                         {/* Footer Logo and Description */}
