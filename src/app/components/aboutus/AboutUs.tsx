@@ -1,4 +1,5 @@
 import Link from "next/link";
+import toast from "react-hot-toast";
 
 export default function AboutUs() {
     return (
@@ -36,6 +37,7 @@ export default function AboutUs() {
                                     that exceed your expectations.
                                 </p>
                                 <Link
+                                    onClick={() => toast.success('Get in Touch')}
                                     href="#contact"
                                     className="inline-block bg-blue-500 text-white font-semibold text-lg px-8 py-3 rounded-full hover:bg-blue-600 transition-colors duration-300"
                                 >

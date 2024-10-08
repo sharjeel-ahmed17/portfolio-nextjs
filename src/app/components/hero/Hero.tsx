@@ -1,3 +1,6 @@
+import Link from "next/link";
+import toast from "react-hot-toast";
+
 
 export default function Hero() {
     return (
@@ -17,18 +20,20 @@ export default function Hero() {
                                 creating stunning and user-friendly web experiences.
                             </p>
                             <div className="mt-8 flex justify-center md:justify-start space-x-4">
-                                <a
+                                <Link
+                                    onClick={() => toast.success('view projects')}
                                     href="#projects"
                                     className="bg-blue-500 text-white px-6 py-3 rounded-full shadow-lg hover:bg-blue-600 transition duration-300"
                                 >
                                     View Projects
-                                </a>
-                                <a
+                                </Link>
+                                <Link
+                                    onClick={() => toast.success('Contact me')}
                                     href="#contact"
                                     className="bg-gray-100 border border-gray-300 text-gray-700 px-6 py-3 rounded-full shadow-lg hover:bg-gray-200 transition duration-300"
                                 >
                                     Contact Me
-                                </a>
+                                </Link>
                             </div>
                         </div>
                         {/* Hero Image */}

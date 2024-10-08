@@ -5,7 +5,9 @@ import Link from "next/link";
 export default function PortfolioCard({ item }: IPortfolio) {
     const { imageUrl, title, description, url, alt } = item;
     return (
-        <div className="bg-gray-100 rounded-lg shadow-lg overflow-hidden">
+        <div className="bg-gray-100 rounded-lg shadow-lg overflow-hidden"
+
+        >
             <img
                 src={imageUrl}
                 alt={alt}

@@ -1,3 +1,6 @@
+import Link from "next/link";
+import toast from "react-hot-toast";
+
 export default function CallToAction() {
     return (
         <>
@@ -14,12 +17,13 @@ export default function CallToAction() {
                                 Let's create something amazing. Get in touch today to start your
                                 project!
                             </p>
-                            <a
+                            <Link
+                                onClick={() => toast.success('Contact me')}
                                 href="#contact"
                                 className="inline-block bg-white text-blue-500 font-semibold text-lg px-8 py-3 rounded-full hover:bg-gray-100 transition-colors duration-300"
                             >
                                 Contact Me
-                            </a>
+                            </Link>
                         </div>
                     </div>
                 </section>

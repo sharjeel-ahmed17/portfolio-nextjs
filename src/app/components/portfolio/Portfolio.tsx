@@ -35,7 +35,9 @@ export default function Portfolio() {
                         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
                             {
                                 porfolioData.slice(0, visible).map((item, index) => {
-                                    return <PortfolioCard key={index} item={item} />
+                                    return <PortfolioCard
+
+                                        key={index} item={item} />
                                 })
                             }
 
