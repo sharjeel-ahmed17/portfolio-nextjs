@@ -48,6 +48,7 @@ function BlogCard({ item }: IBLog) {
 
     return (
         <div className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300" data-aos="flip-left">
+            {/* sime si */}
             <img
                 src={imageUrl}
                 className="w-full h-48 object-cover"
