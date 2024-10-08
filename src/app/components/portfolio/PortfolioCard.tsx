@@ -1,5 +1,6 @@
+import toast from "react-hot-toast";
 import { IPortfolio } from "./interface";
-
+import Link from "next/link";
 
 export default function PortfolioCard({ item }: IPortfolio) {
     const { imageUrl, title, description, url, alt } = item;
@@ -17,9 +18,9 @@ export default function PortfolioCard({ item }: IPortfolio) {
                 <p className="text-gray-600 mb-4">
                     {description}
                 </p>
-                <a href={url} className="text-blue-500 font-semibold hover:underline">
+                <Link href={url} className="text-blue-500 font-semibold hover:underline">
                     View Project
-                </a>
+                </Link>
             </div>
         </div>
     )

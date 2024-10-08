@@ -28,5 +28,47 @@ export const porfolioData: PortfolioData[] = [
         description: "count down timer app using next js, tailwind css, typescript , shadcn ui etc. ",
         url: "https://countdown-timer-app-eight.vercel.app/"
     },
+    {
+        imageUrl: "/images/count-down-timer.PNG",
+        alt: "Count Down Timer",
+        title: "Count Down Timer",
+        description: "count down timer app using next js, tailwind css, typescript , shadcn ui etc. ",
+        url: "https://countdown-timer-app-eight.vercel.app/"
+    },
+    {
+        imageUrl: "/images/count-down-timer.PNG",
+        alt: "Count Down Timer",
+        title: "Count Down Timer",
+        description: "count down timer app using next js, tailwind css, typescript , shadcn ui etc. ",
+        url: "https://countdown-timer-app-eight.vercel.app/"
+    },
+    {
+        imageUrl: "/images/count-down-timer.PNG",
+        alt: "Count Down Timer",
+        title: "Count Down Timer",
+        description: "count down timer app using next js, tailwind css, typescript , shadcn ui etc. ",
+        url: "https://countdown-timer-app-eight.vercel.app/"
+    },
+    {
+        imageUrl: "/images/count-down-timer.PNG",
+        alt: "Count Down Timer",
+        title: "Count Down Timer",
+        description: "count down timer app using next js, tailwind css, typescript , shadcn ui etc. ",
+        url: "https://countdown-timer-app-eight.vercel.app/"
+    },
+    {
+        imageUrl: "/images/count-down-timer.PNG",
+        alt: "Count Down Timer",
+        title: "Count Down Timer",
+        description: "count down timer app using next js, tailwind css, typescript , shadcn ui etc. ",
+        url: "https://countdown-timer-app-eight.vercel.app/"
+    },
+    {
+        imageUrl: "/images/count-down-timer.PNG",
+        alt: "Count Down Timer",
+        title: "Count Down Timer",
+        description: "count down timer app using next js, tailwind css, typescript , shadcn ui etc. ",
+        url: "https://countdown-timer-app-eight.vercel.app/"
+    },
 
 ]
