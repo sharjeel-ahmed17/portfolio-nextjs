@@ -37,8 +37,7 @@ export default function Portfolio() {
                                 porfolioData.slice(0, visible).map((item, index) => {
                                     return <PortfolioCard
 
-                                        data-aos="fade-up"
-                                        data-aos-delay={`${index * 100}`}
+
 
                                         key={index} item={item} />
                                 })

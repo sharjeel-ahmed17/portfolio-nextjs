@@ -1,17 +1,19 @@
 import toast from "react-hot-toast";
 import { IPortfolio } from "./interface";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function PortfolioCard({ item }: IPortfolio) {
     const { imageUrl, title, description, url, alt } = item;
     return (
         <div className="bg-gray-100 rounded-lg shadow-lg overflow-hidden"
-
+            data-aos="zoom-in"
         >
             <img
                 src={imageUrl}
                 alt={alt}
                 className="w-full h-48 object-cover"
+
             />
             <div className="p-6">
                 <h3 className="text-2xl font-bold text-gray-800 mb-2">

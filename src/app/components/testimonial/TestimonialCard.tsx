@@ -2,7 +2,7 @@ export default function TestimonialCard({ item }: ITestimonial) {
 
     const { imageUrl, name, title, description, alt } = item;
     return (
-        <div className="bg-gray-50 p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+        <div className="bg-gray-50 p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300" data-aos="flip-right">
             <div className="flex items-center space-x-4 mb-4">
                 <img
                     src={imageUrl}

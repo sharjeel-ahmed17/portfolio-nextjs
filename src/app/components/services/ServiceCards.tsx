@@ -4,7 +4,7 @@ import { IServices } from "./interface"
 const ServiceCards = ({ item }: IServices) => {
     const { imageUrl, alt, title, description, svg } = item;
     return (
-        <div className="bg-white rounded-lg shadow-lg p-8 hover:shadow-xl transition-shadow duration-300">
+        <div className="bg-white rounded-lg shadow-lg p-8 hover:shadow-xl transition-shadow duration-300" data-aos="zoom-in">
             <div className="flex items-center justify-center mb-6">
                 {/* Icon (use any SVG or FontAwesome icons here) */}
                 {/* <svg
