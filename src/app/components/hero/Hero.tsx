@@ -12,7 +12,7 @@ export default function Hero() {
                         {/* Text Content */}
                         <div className="flex-1 text-center md:text-left">
                             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
-                                Hi, I’m <span className="text-blue-500">Sharjeel Ahmed</span>
+                                Hi, I’m <span className="text-blue-500" data-aos="fade-down">Sharjeel Ahmed</span>
                             </h1>
                             <p className="mt-4 text-gray-700 text-lg md:text-xl max-w-lg">
                                 A passionate{" "}

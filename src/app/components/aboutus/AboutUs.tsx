@@ -22,7 +22,7 @@ export default function AboutUs() {
                                 <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
                                     About <span className="text-blue-500">Me</span>
                                 </h2>
-                                <p className="text-gray-600 mb-6">
+                                <p className="text-gray-600 mb-6" data-aos="fade-up">
                                     I’m  <span className="font-bold">Sharjeel Ahmed</span> , a passionate developer and designer with a love for
                                     creating beautiful, <span className="font-bold">functional websites</span> . With over 2 of
                                     experience in the industry, I’ve had the pleasure of working with

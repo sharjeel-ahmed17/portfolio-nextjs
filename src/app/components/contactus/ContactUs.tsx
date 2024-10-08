@@ -41,7 +41,7 @@ export default function ContactUs() {
                 <section id="contact" className="bg-white py-16">
                     <div className="container mx-auto px-6 md:px-12 lg:px-16">
                         {/* Section Heading */}
-                        <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-12">
+                        <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-12" data-aos="fade-down">
                             Get in <span className="text-blue-500">Touch</span>
                         </h2>
                         {/* Contact Form and Info */}
@@ -53,7 +53,7 @@ export default function ContactUs() {
                                 <h3 className="text-2xl font-bold text-gray-900 mb-4">
                                     Contact Information
                                 </h3>
-                                <p className="text-gray-600 mb-6">
+                                <p className="text-gray-600 mb-6" data-aos="fade-down">
                                     Feel free to reach out through the form or use the following contact
                                     details to get in touch with me directly.
                                 </p>
